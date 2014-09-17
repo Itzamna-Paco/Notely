@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0634A319C7A27B00BB041D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0634A219C7A27B00BB041D /* AppDelegate.swift */; };
+		ED0634A619C7A27B00BB041D /* Notely.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED0634A419C7A27B00BB041D /* Notely.xcdatamodeld */; };
+		ED0634A819C7A27B00BB041D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0634A719C7A27B00BB041D /* ViewController.swift */; };
+		ED0634AB19C7A27B00BB041D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0634A919C7A27B00BB041D /* Main.storyboard */; };
+		ED0634AD19C7A27B00BB041D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0634AC19C7A27B00BB041D /* Images.xcassets */; };
+		ED0634B019C7A27B00BB041D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0634AE19C7A27B00BB041D /* LaunchScreen.xib */; };
+		ED0634BC19C7A27C00BB041D /* NotelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0634BB19C7A27C00BB041D /* NotelyTests.swift */; };
+		ED0634C619C7A2FB00BB041D /* MyNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0634C519C7A2FB00BB041D /* MyNotesViewController.swift */; };
+		ED0634C819C7A7C100BB041D /* IMG_0653.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0634C719C7A7C100BB041D /* IMG_0653.jpg */; };
+		ED0634CA19C7AF6500BB041D /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0634C919C7AF6500BB041D /* PopoverVC.swift */; };
+		ED0634CC19C80C7800BB041D /* Notely.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0634CB19C80C7800BB041D /* Notely.swift */; };
+		ED0634CE19C9669900BB041D /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0634CD19C9669900BB041D /* CollectionCell.swift */; };
+		ED0634D019CA0EAC00BB041D /* metal-floor-background-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0634CF19CA0EAC00BB041D /* metal-floor-background-pattern.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED0634B619C7A27C00BB041D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED06349519C7A27B00BB041D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED06349C19C7A27B00BB041D;
+			remoteInfo = Notely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED06349D19C7A27B00BB041D /* Notely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0634A119C7A27B00BB041D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0634A219C7A27B00BB041D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0634A519C7A27B00BB041D /* Notely.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notely.xcdatamodel; sourceTree = "<group>"; };
+		ED0634A719C7A27B00BB041D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0634AA19C7A27B00BB041D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0634AC19C7A27B00BB041D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED0634AF19C7A27B00BB041D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED0634B519C7A27C00BB041D /* NotelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0634BA19C7A27C00BB041D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0634BB19C7A27C00BB041D /* NotelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotelyTests.swift; sourceTree = "<group>"; };
+		ED0634C519C7A2FB00BB041D /* MyNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNotesViewController.swift; sourceTree = "<group>"; };
+		ED0634C719C7A7C100BB041D /* IMG_0653.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0653.jpg; sourceTree = "<group>"; };
+		ED0634C919C7AF6500BB041D /* PopoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
+		ED0634CB19C80C7800BB041D /* Notely.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notely.swift; sourceTree = "<group>"; };
+		ED0634CD19C9669900BB041D /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		ED0634CF19CA0EAC00BB041D /* metal-floor-background-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "metal-floor-background-pattern.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED06349A19C7A27B00BB041D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0634B219C7A27C00BB041D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED06349419C7A27B00BB041D = {
+			isa = PBXGroup;
+			children = (
+				ED06349F19C7A27B00BB041D /* Notely */,
+				ED0634B819C7A27C00BB041D /* NotelyTests */,
+				ED06349E19C7A27B00BB041D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED06349E19C7A27B00BB041D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED06349D19C7A27B00BB041D /* Notely.app */,
+				ED0634B519C7A27C00BB041D /* NotelyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED06349F19C7A27B00BB041D /* Notely */ = {
+			isa = PBXGroup;
+			children = (
+				ED0634A219C7A27B00BB041D /* AppDelegate.swift */,
+				ED0634A719C7A27B00BB041D /* ViewController.swift */,
+				ED0634A919C7A27B00BB041D /* Main.storyboard */,
+				ED0634CF19CA0EAC00BB041D /* metal-floor-background-pattern.png */,
+				ED0634CD19C9669900BB041D /* CollectionCell.swift */,
+				ED0634AC19C7A27B00BB041D /* Images.xcassets */,
+				ED0634AE19C7A27B00BB041D /* LaunchScreen.xib */,
+				ED0634A419C7A27B00BB041D /* Notely.xcdatamodeld */,
+				ED0634A019C7A27B00BB041D /* Supporting Files */,
+				ED0634C519C7A2FB00BB041D /* MyNotesViewController.swift */,
+				ED0634C919C7AF6500BB041D /* PopoverVC.swift */,
+				ED0634CB19C80C7800BB041D /* Notely.swift */,
+			);
+			path = Notely;
+			sourceTree = "<group>";
+		};
+		ED0634A019C7A27B00BB041D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED0634C719C7A7C100BB041D /* IMG_0653.jpg */,
+				ED0634A119C7A27B00BB041D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED0634B819C7A27C00BB041D /* NotelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED0634BB19C7A27C00BB041D /* NotelyTests.swift */,
+				ED0634B919C7A27C00BB041D /* Supporting Files */,
+			);
+			path = NotelyTests;
+			sourceTree = "<group>";
+		};
+		ED0634B919C7A27C00BB041D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED0634BA19C7A27C00BB041D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED06349C19C7A27B00BB041D /* Notely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0634BF19C7A27C00BB041D /* Build configuration list for PBXNativeTarget "Notely" */;
+			buildPhases = (
+				ED06349919C7A27B00BB041D /* Sources */,
+				ED06349A19C7A27B00BB041D /* Frameworks */,
+				ED06349B19C7A27B00BB041D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notely;
+			productName = Notely;
+			productReference = ED06349D19C7A27B00BB041D /* Notely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED0634B419C7A27C00BB041D /* NotelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0634C219C7A27C00BB041D /* Build configuration list for PBXNativeTarget "NotelyTests" */;
+			buildPhases = (
+				ED0634B119C7A27C00BB041D /* Sources */,
+				ED0634B219C7A27C00BB041D /* Frameworks */,
+				ED0634B319C7A27C00BB041D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED0634B719C7A27C00BB041D /* PBXTargetDependency */,
+			);
+			name = NotelyTests;
+			productName = NotelyTests;
+			productReference = ED0634B519C7A27C00BB041D /* NotelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED06349519C7A27B00BB041D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "L Mirella Rangel";
+				TargetAttributes = {
+					ED06349C19C7A27B00BB041D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ED0634B419C7A27C00BB041D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ED06349C19C7A27B00BB041D;
+					};
+				};
+			};
+			buildConfigurationList = ED06349819C7A27B00BB041D /* Build configuration list for PBXProject "Notely" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED06349419C7A27B00BB041D;
+			productRefGroup = ED06349E19C7A27B00BB041D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED06349C19C7A27B00BB041D /* Notely */,
+				ED0634B419C7A27C00BB041D /* NotelyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED06349B19C7A27B00BB041D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0634D019CA0EAC00BB041D /* metal-floor-background-pattern.png in Resources */,
+				ED0634AB19C7A27B00BB041D /* Main.storyboard in Resources */,
+				ED0634C819C7A7C100BB041D /* IMG_0653.jpg in Resources */,
+				ED0634B019C7A27B00BB041D /* LaunchScreen.xib in Resources */,
+				ED0634AD19C7A27B00BB041D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0634B319C7A27C00BB041D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED06349919C7A27B00BB041D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0634C619C7A2FB00BB041D /* MyNotesViewController.swift in Sources */,
+				ED0634A819C7A27B00BB041D /* ViewController.swift in Sources */,
+				ED0634A619C7A27B00BB041D /* Notely.xcdatamodeld in Sources */,
+				ED0634A319C7A27B00BB041D /* AppDelegate.swift in Sources */,
+				ED0634CE19C9669900BB041D /* CollectionCell.swift in Sources */,
+				ED0634CC19C80C7800BB041D /* Notely.swift in Sources */,
+				ED0634CA19C7AF6500BB041D /* PopoverVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0634B119C7A27C00BB041D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0634BC19C7A27C00BB041D /* NotelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED0634B719C7A27C00BB041D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED06349C19C7A27B00BB041D /* Notely */;
+			targetProxy = ED0634B619C7A27C00BB041D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED0634A919C7A27B00BB041D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0634AA19C7A27B00BB041D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0634AE19C7A27B00BB041D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0634AF19C7A27B00BB041D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0634BD19C7A27C00BB041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0634BE19C7A27C00BB041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0634C019C7A27C00BB041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Notely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED0634C119C7A27C00BB041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Notely/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED0634C319C7A27C00BB041D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NotelyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notely.app/Notely";
+			};
+			name = Debug;
+		};
+		ED0634C419C7A27C00BB041D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NotelyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notely.app/Notely";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED06349819C7A27B00BB041D /* Build configuration list for PBXProject "Notely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0634BD19C7A27C00BB041D /* Debug */,
+				ED0634BE19C7A27C00BB041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0634BF19C7A27C00BB041D /* Build configuration list for PBXNativeTarget "Notely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0634C019C7A27C00BB041D /* Debug */,
+				ED0634C119C7A27C00BB041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED0634C219C7A27C00BB041D /* Build configuration list for PBXNativeTarget "NotelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0634C319C7A27C00BB041D /* Debug */,
+				ED0634C419C7A27C00BB041D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED0634A419C7A27B00BB041D /* Notely.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED0634A519C7A27B00BB041D /* Notely.xcdatamodel */,
+			);
+			currentVersion = ED0634A519C7A27B00BB041D /* Notely.xcdatamodel */;
+			path = Notely.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED06349519C7A27B00BB041D /* Project object */;
+}
