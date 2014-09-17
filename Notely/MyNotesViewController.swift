@@ -2,8 +2,8 @@
 //  MyNotesViewController.swift
 //  Notely
 //
-//  Created by L Mirella Rangel on 9/15/14.
-//  Copyright (c) 2014 L Mirella Rangel. All rights reserved.
+//  Created byFrancisco Nieto on 9/15/14.
+//  MIT LICENSE
 //
 
 import Foundation
